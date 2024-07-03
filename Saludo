@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .message {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .love-image {
+            width: 100%; /* Ajusta el tamaño de la imagen al ancho del contenedor */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .audio-player {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Te amo Leona Hermosa</title>
+</head>
+<body>
+    <div class="message">
+        Te amo Leona Hermosa
+    </div>
+    <img class="love-image" src="https://i.pinimg.com/originals/20/b5/2e/20b52ede59e46ff8140fbbf470089860.jpg" alt="Imagen de amor">
+    
+    <!-- Reproductor de audio -->
+    <div class="audio-player">
+        <audio controls>
+            <source src="https://drive.google.com/uc?export=download&id=1vMI0g7bax4wn97bmbuwX2i61VwBADre0" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+</body>
+</html>
